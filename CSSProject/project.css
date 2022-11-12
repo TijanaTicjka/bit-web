@@ -1,0 +1,435 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: lightgrey;
+}
+
+.container {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: white;
+    display: wrap;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.first {
+    color: coral;
+    border-color: grey;
+    border: 3px solid gray;
+    border-right: none;
+    margin-right: 5px;
+    
+    
+}
+.second {
+    color:grey; }
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top:20px ;
+
+}
+
+nav {
+    background-color: lightskyblue;
+    width: 80%;
+    color: white;
+    text-align: center;
+  
+}
+
+nav ul {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+nav a {
+    line-height: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+
+}
+img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.intro {
+    position: absolute;
+    margin-top: 400px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+}
+
+button {
+    background-color: rgb(35, 98, 216);
+    position: absolute;
+    margin-top: 570px;
+    color: white;
+    border-radius: 40px;
+    padding: 10px 35px;
+    border-style: hidden;
+
+}
+
+.third {
+    
+    text-transform: capitalize;
+    margin: 0 auto;
+    
+}
+
+.firstSection {
+    margin-top: 60px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.firstSection h3 {
+    color: rgb(42, 109, 196);
+    width: 100%;
+    text-transform: capitalize;
+    line-height: 80px;
+    
+}
+
+.border {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.line {
+    height: 2px;
+    width: 130px;
+    border-top: 1px solid black;
+}
+
+.square {
+    height: 15px;
+    width: 15px;
+    border: 2px solid black;
+    transform: rotate(50deg);
+    margin: 0 10px;
+}
+
+.firstSection img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.firstSection ul {
+    list-style-image: url(./images/arrow_bullet.png);
+    text-transform: capitalize;
+    list-style-position:outside;
+    margin: -20px;
+
+}
+
+.secondSection {
+    margin-top: 60px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.secondSection h1 {
+    text-transform: capitalize;
+    margin: 0 auto;
+    
+}
+.secondSection p {
+    margin-left: 20px;
+    line-height: 35px;
+    margin-bottom: 30px;
+  
+}
+
+.content {
+    background-color: hsl(197, 100%, 50%);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+
+}
+.content img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    border-style: solid;
+    padding: 2px;
+
+}
+.content h4 {
+    width: 80%;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 50px;
+    
+}
+.stars {
+    padding: 1rem;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+svg {
+      width: 20px;
+    
+      
+    }
+path {
+    fill: white;
+}
+.thirdSection {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 60px;
+    
+}
+.thirdSection h1 {
+    text-transform: capitalize;
+    margin: 0 auto; 
+
+}
+
+.contentSecond{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divOne {
+    background-color: rgb(43, 226, 147);
+    width: 50%;
+    color: white;
+    display: flex;
+    height: 300px;
+    flex-wrap: wrap;
+    
+}
+.divOne h2 {
+    margin: 0 auto;
+    margin-top: 60px;
+    text-transform: uppercase;
+
+}
+
+.divOne img {
+    width: 30px;
+    height: 30px;
+    padding: none;
+    margin-top: -80px;
+  
+
+}
+
+.divOne p {
+    margin-top: -70px;
+    width: 90%;
+}
+
+.icons {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 30px;
+    
+
+}
+
+.divSecond {
+    background-color: rgb(233, 50, 123);
+    width: 50%;
+    color: white;
+    display: flex;
+    height: 300px;
+    flex-wrap: wrap;
+   
+}
+
+.divSecond h2 {
+    margin: 0 auto;
+    margin-top: 60px;
+    text-transform: uppercase;
+
+}
+
+.divSecond img {
+    width: 20px;
+    height: 20px;
+    padding: none;
+    margin-top: -50px;
+    
+}
+
+.icons1 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.divThird {
+    background-color: rgb(46, 76, 181);
+    width: 50%;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.divThird h2 {
+    text-transform: uppercase;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.location {
+    width: 50%;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: -100px;
+    
+}
+
+.location li {
+    list-style-type: none;
+    text-align: center;
+    margin-left:-40px;
+}
+.location img {
+    height: 20px;
+    width: 22px;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 22px;
+}
+
+.divFour {
+    background-color: skyblue;
+    width: 50%;
+    height: 300px;
+}
+
+.divFour img {
+    width: 115%;
+    height: 105%;
+    margin: 0 auto;
+}
+iframe {
+    _width: 100%;
+    flex-grow: 1;
+}
+
+.fourthSection {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.fourthSection h1 {
+    text-transform: capitalize;
+    margin: 0 auto;
+
+}
+form {
+    width: 100%;
+    margin: 0 auto;
+    _background-color: blueviolet;
+    text-align: center;
+}
+
+input {
+    height: 60px;
+    width: 95%;
+
+}
+.submit {
+    width: 25%;
+    background-color: orange;
+    color: white;
+    border: 0;
+    height: 50px;
+    margin-left: -580px;
+   
+}
+footer {
+    display: flex;
+    background-color:black;
+    width: 100%;
+    justify-content: space-around;
+    height: 200px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    
+}
+
+footer a {
+    color: white;
+    
+}
+
+footer li {
+    list-style-type: none;
+    flex-grow: 2;
+    
+}
+
+footer ul {
+    display: flex;
+    width: 90%;
+    margin-top: 50px; 
+}
+
+.theEnd {
+    display: flex;
+    color: white;
+    width: 50%;
+
+}
+
+p {
+   
+margin: 0 auto;
+
+}
+
+footer img {
+    width: 13px;
+    height: 13px;
+    margin-top: 2px;
+    margin-right:-65px;
+    
+}
+
+footer a {
+    text-decoration: none;
+}
