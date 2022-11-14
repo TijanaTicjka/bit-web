@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
 }
+
 body {
     background-color: lightgrey;
 }
@@ -17,24 +18,31 @@ body {
     position: relative;
 }
 
+.container1 {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .first {
     color: coral;
     border-color: grey;
     border: 3px solid gray;
     border-right: none;
     margin-right: 5px;
-    
-    
 }
+
 .second {
-    color:grey; }
+    color: grey;
+ }
 
 header {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    margin-top:20px ;
-
+    margin-top: 20px ;
+    flex-wrap: wrap;
 }
 
 nav {
@@ -42,12 +50,14 @@ nav {
     width: 80%;
     color: white;
     text-align: center;
-  
+    display: flex;
+    justify-content: center;
 }
 
 nav ul {
     list-style-type: none;
     text-transform: uppercase;
+    margin-left:-30px;
 }
 
 nav a {
@@ -58,8 +68,8 @@ nav a {
 
 a:hover {
     color: purple;
-
 }
+
 img {
     width: 100%;
     display: block;
@@ -75,24 +85,23 @@ img {
     text-align: center;
     text-transform: uppercase;
     width: 80%;
+    display: flex;
+    justify-content: center;
 }
 
 button {
     background-color: rgb(35, 98, 216);
     position: absolute;
-    margin-top: 570px;
+    margin-top: -40px;
     color: white;
-    border-radius: 40px;
-    padding: 10px 35px;
+    border-radius: 30px;
+    padding: 10px 25px;
     border-style: hidden;
-
 }
 
 .third {
-    
     text-transform: capitalize;
     margin: 0 auto;
-    
 }
 
 .firstSection {
@@ -106,8 +115,7 @@ button {
     color: rgb(42, 109, 196);
     width: 100%;
     text-transform: capitalize;
-    line-height: 80px;
-    
+    line-height: 80px; 
 }
 
 .border {
@@ -142,7 +150,6 @@ button {
     text-transform: capitalize;
     list-style-position:outside;
     margin: -20px;
-
 }
 
 .secondSection {
@@ -150,18 +157,18 @@ button {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    
 }
+
 .secondSection h1 {
     text-transform: capitalize;
     margin: 0 auto;
     
 }
+
 .secondSection p {
     margin-left: 20px;
     line-height: 35px;
     margin-bottom: 30px;
-  
 }
 
 .content {
@@ -170,8 +177,8 @@ button {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 15px;
-
 }
+
 .content img {
     border-radius: 50%;
     width: 100px;
@@ -179,43 +186,44 @@ button {
     margin-left: 20px;
     border-style: solid;
     padding: 2px;
-
 }
+
 .content h4 {
     width: 80%;
     color: black;
     text-transform: uppercase;
     margin-top: 50px;
-    
+    margin-left: 20px;
 }
+
 .stars {
     padding: 1rem;
     position: absolute;
     margin-left: 120px;
     margin-top: 60px;
 }
+
 svg {
-      width: 20px;
-    
-      
-    }
+    width: 20px;
+}
+
 path {
     fill: white;
 }
+
 .thirdSection {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     margin-top: 60px;
-    
 }
+
 .thirdSection h1 {
     text-transform: capitalize;
     margin: 0 auto; 
-
 }
 
-.contentSecond{
+.contentSecond {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -226,38 +234,34 @@ path {
     width: 50%;
     color: white;
     display: flex;
-    height: 300px;
+    height: 200px;
     flex-wrap: wrap;
-    
 }
-.divOne h2 {
-    margin: 0 auto;
-    margin-top: 60px;
-    text-transform: uppercase;
 
+.divOne h3 {
+    margin: 0 auto;
+    margin-top: 40px;
+    text-transform: uppercase;
 }
 
 .divOne img {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     padding: none;
-    margin-top: -80px;
-  
-
+    margin-top: -40px;
+    margin-left: 0px;
 }
 
 .divOne p {
-    margin-top: -70px;
-    width: 90%;
+    margin-top: -40px;
+    width: 80%;
 }
 
 .icons {
-    width: 100%;
+    width: 80%;
     flex-wrap: wrap;
     display: flex;
-    margin-left: 30px;
-    
-
+    margin: 0 auto;
 }
 
 .divSecond {
@@ -265,58 +269,48 @@ path {
     width: 50%;
     color: white;
     display: flex;
-    height: 300px;
+    height: 200px;
     flex-wrap: wrap;
-   
 }
 
-.divSecond h2 {
+.divSecond h3 {
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 40px;
     text-transform: uppercase;
-
 }
 
 .divSecond img {
     width: 20px;
     height: 20px;
     padding: none;
-    margin-top: -50px;
-    
+    margin-top: -30px;
 }
 
 .icons1 {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-
 }
 
 .divThird {
     background-color: rgb(46, 76, 181);
     width: 50%;
-    height: 300px;
+    height: 200px;
     color: white;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    
+    justify-content: center;
 }
 
-.divThird h2 {
+.divThird h3 {
     text-transform: uppercase;
     width: 100%;
-    margin: 0 auto;
     text-align: center;
-    
+    margin-top: 40px;
 }
 
 .location {
-    width: 50%;
-    height: fit-content;
-    margin: 0 auto;
-    margin-top: -100px;
-    
+    margin-top: -20px;
 }
 
 .location li {
@@ -324,18 +318,19 @@ path {
     text-align: center;
     margin-left:-40px;
 }
+
 .location img {
     height: 20px;
     width: 22px;
     position: absolute;
     margin-top: -5px;
-    margin-left: 22px;
+    margin-left: -2px;
 }
 
 .divFour {
     background-color: skyblue;
     width: 50%;
-    height: 300px;
+    height: 200px;
 }
 
 .divFour img {
@@ -343,9 +338,9 @@ path {
     height: 105%;
     margin: 0 auto;
 }
+
 iframe {
-    _width: 100%;
-    flex-grow: 1;
+    width: 100%;
 }
 
 .fourthSection {
@@ -358,8 +353,8 @@ iframe {
 .fourthSection h1 {
     text-transform: capitalize;
     margin: 0 auto;
-
 }
+
 form {
     width: 100%;
     margin: 0 auto;
@@ -370,17 +365,21 @@ form {
 input {
     height: 60px;
     width: 95%;
-
 }
+
+textarea {
+    width: 95%;
+}
+
 .submit {
     width: 25%;
     background-color: orange;
     color: white;
     border: 0;
     height: 50px;
-    margin-left: -580px;
-   
+    margin-right:70%;
 }
+
 footer {
     display: flex;
     background-color:black;
@@ -389,47 +388,44 @@ footer {
     height: 200px;
     margin-top: 60px;
     flex-wrap: wrap;
-    
 }
 
 footer a {
     color: white;
-    
 }
 
 footer li {
     list-style-type: none;
     flex-grow: 2;
-    
 }
 
 footer ul {
     display: flex;
     width: 90%;
     margin-top: 50px; 
+    padding: 0px;
+    text-align: center;
+    flex-wrap: wrap;
+    
 }
 
 .theEnd {
     display: flex;
     color: white;
-    width: 50%;
-
-}
-
-p {
-   
-margin: 0 auto;
-
+    width: 100%;
+    
 }
 
 footer img {
     width: 13px;
     height: 13px;
     margin-top: 2px;
-    margin-right:-65px;
-    
+    margin-right: 1%;
+    margin-left: 15%;
 }
 
 footer a {
     text-decoration: none;
 }
+
+
