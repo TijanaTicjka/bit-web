@@ -3,8 +3,29 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: 'fontAwesome';
+    src: url(../fonts/fontawesome-webfont.ttf), url(../fonts/fa-brands-400.ttf);
+  }
+  @font-face {
+    font-family: 'robotoBold';
+    src: url(../fonts//Roboto-Bold.ttf);
+  }
+  @font-face {
+    font-family: 'robotoMedium';
+    src: url(../fonts/Roboto-Medium.ttf);
+  }
+  @font-face {
+    font-family: 'robotoRegular';
+    src: url(../fonts/Roboto-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'robotoThin';
+    src: url(../fonts/Roboto-Thin.ttf);
+  }
 body {
     background-color: lightgrey;
+    font-family: "RobotoRegular", sans-serif;
 }
 
 .container {
@@ -39,10 +60,10 @@ body {
 
 header {
     display: flex;
-    align-items: center;
     margin-bottom: 10px;
     margin-top: 20px ;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 nav {
@@ -71,41 +92,68 @@ a:hover {
 }
 
 img {
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
+   width: 100%;
+   height: 100%;
 }
 
 .intro {
-    position: absolute;
-    margin-top: 400px;
+    margin-top: 10%;
     color: white;
     text-align: center;
     text-transform: uppercase;
-    width: 80%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    width: 100%;
+    max-height: max-content;
+    
+}
+.read {
+  
+    width: 90%;
+    display: flex;
+    _flex-wrap: wrap;
+    _margin-left: -80%;
+    justify-content: center;
+    _margin-right: 20%;
+    _margin-bottom: 15%;
+    margin-top: 16%;
+    position: absolute;
+    height: 40%;
+    
+}
+
+.intro1 {
+    display: flex;
+    width: 125%;
+    
+    
+}
+.intro p {
+    text-align:center ;
+    
 }
 
 button {
     background-color: rgb(35, 98, 216);
-    position: absolute;
-    margin-top: -40px;
     color: white;
     border-radius: 30px;
-    padding: 10px 25px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 22px;
+    padding-right: 22px;
     border-style: hidden;
+    margin-top: 25%;
+    position: absolute;
+   
 }
 
 .third {
     text-transform: capitalize;
-    margin: 0 auto;
 }
 
 .firstSection {
-    margin-top: 60px;
     width: 80%;
     display: flex;
     flex-wrap: wrap;
@@ -113,9 +161,8 @@ button {
 
 .firstSection h3 {
     color: rgb(42, 109, 196);
-    width: 100%;
     text-transform: capitalize;
-    line-height: 80px; 
+    
 }
 
 .border {
@@ -128,7 +175,7 @@ button {
 
 .line {
     height: 2px;
-    width: 130px;
+    width: 30px;
     border-top: 1px solid black;
 }
 
@@ -142,7 +189,7 @@ button {
 
 .firstSection img {
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 2em;
 }
 
 .firstSection ul {
@@ -159,10 +206,17 @@ button {
     flex-wrap: wrap;
 }
 
+.titlle {
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
 .secondSection h1 {
     text-transform: capitalize;
-    margin: 0 auto;
-    
 }
 
 .secondSection p {
@@ -177,6 +231,8 @@ button {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 15px;
+
+   
 }
 
 .content img {
@@ -186,21 +242,33 @@ button {
     margin-left: 20px;
     border-style: solid;
     padding: 2px;
+    margin-top:10%;
+}
+.group {
+    margin-top: 10%;
+    margin-right: 25%;
+
 }
 
+.group h4 {
+    width: 100%;
+}
+
+.commonContent {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
 .content h4 {
-    width: 80%;
     color: black;
     text-transform: uppercase;
-    margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 10%;
 }
 
 .stars {
     padding: 1rem;
-    position: absolute;
-    margin-left: 120px;
-    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 svg {
@@ -216,52 +284,74 @@ path {
     flex-wrap: wrap;
     width: 100%;
     margin-top: 60px;
+    height: fit-content;
 }
 
 .thirdSection h1 {
     text-transform: capitalize;
-    margin: 0 auto; 
+    width: 80%;
 }
 
 .contentSecond {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    height: 550px;
+    
 }
 
+.div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20%;
+    margin-bottom: 3em;
+}
 .divOne {
     background-color: rgb(43, 226, 147);
     width: 50%;
     color: white;
     display: flex;
-    height: 200px;
+    height: 50%;
     flex-wrap: wrap;
+    justify-content: center;
+   
 }
 
 .divOne h3 {
-    margin: 0 auto;
-    margin-top: 40px;
     text-transform: uppercase;
+    text-align: center;
+   
 }
 
 .divOne img {
-    width: 20px;
-    height: 20px;
-    padding: none;
-    margin-top: -40px;
-    margin-left: 0px;
+    width: 1.4em;
+    height: 1.4em;
+    margin-right: 1em;
 }
 
 .divOne p {
-    margin-top: -40px;
-    width: 80%;
+    width: 10em;
+    text-align: center;
 }
 
 .icons {
-    width: 80%;
+    width: 100%;
     flex-wrap: wrap;
     display: flex;
-    margin: 0 auto;
+   
+
+}
+
+.a {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+    
 }
 
 .divSecond {
@@ -269,33 +359,33 @@ path {
     width: 50%;
     color: white;
     display: flex;
-    height: 200px;
+    height: 50%;
     flex-wrap: wrap;
+    
+   
 }
 
 .divSecond h3 {
-    margin: 0 auto;
-    margin-top: 40px;
+    text-align: center;
     text-transform: uppercase;
 }
 
 .divSecond img {
-    width: 20px;
-    height: 20px;
-    padding: none;
-    margin-top: -30px;
+    width: 1.4em;
+    height: 1.4em;
 }
 
 .icons1 {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .divThird {
     background-color: rgb(46, 76, 181);
     width: 50%;
-    height: 200px;
+    height: 50%;
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -306,41 +396,46 @@ path {
     text-transform: uppercase;
     width: 100%;
     text-align: center;
-    margin-top: 40px;
+
 }
 
-.location {
-    margin-top: -20px;
+.location ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    padding: 0px;
+    margin-left: 10%;
+    margin-bottom: 2em;
+    margin-top: 1em;
 }
 
 .location li {
     list-style-type: none;
     text-align: center;
-    margin-left:-40px;
 }
 
 .location img {
     height: 20px;
     width: 22px;
-    position: absolute;
-    margin-top: -5px;
-    margin-left: -2px;
 }
 
 .divFour {
     background-color: skyblue;
     width: 50%;
-    height: 200px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .divFour img {
-    width: 115%;
-    height: 105%;
-    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+   
 }
 
 iframe {
-    width: 100%;
+    max-width: 100%;
 }
 
 .fourthSection {
@@ -348,46 +443,50 @@ iframe {
     flex-wrap: wrap;
     width: 100%;
     margin-top: 60px;
+    
 }
 
 .fourthSection h1 {
     text-transform: capitalize;
-    margin: 0 auto;
 }
 
 form {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     _background-color: blueviolet;
     text-align: center;
+    margin-bottom: 10%;
 }
 
 input {
     height: 60px;
-    width: 95%;
+    width: 90%;
 }
 
 textarea {
-    width: 95%;
+    width: 90%;
 }
 
 .submit {
-    width: 25%;
+    width: 30%;
     background-color: orange;
     color: white;
     border: 0;
-    height: 50px;
-    margin-right:70%;
+    margin-right:60%;
+    padding: 10px 2px;
+    height: fit-content;
+   
+    
 }
 
 footer {
     display: flex;
     background-color:black;
-    width: 100%;
-    justify-content: space-around;
-    height: 200px;
-    margin-top: 60px;
+    justify-content: center;
+    height: 180px;
     flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
 }
 
 footer a {
@@ -403,15 +502,18 @@ footer ul {
     display: flex;
     width: 90%;
     margin-top: 50px; 
-    padding: 0px;
     text-align: center;
     flex-wrap: wrap;
-    
+    padding: 0;
 }
 
 .theEnd {
-    display: flex;
     color: white;
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.theEnd ul {
     width: 100%;
     
 }
@@ -419,13 +521,23 @@ footer ul {
 footer img {
     width: 13px;
     height: 13px;
-    margin-top: 2px;
-    margin-right: 1%;
-    margin-left: 15%;
+    margin-top: 1%;
+    margin-right: 1%; 
 }
+
 
 footer a {
     text-decoration: none;
 }
 
+@media only screen and (max-width: 450px) {
+    
 
+.divOne p {
+    font-size:0.7em;
+}
+.divThird ul {
+    font-size: 0.8em;
+}
+
+}
