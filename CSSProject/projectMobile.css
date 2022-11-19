@@ -107,32 +107,25 @@ img {
     background-color: aquamarine;
     width: 100%;
     max-height: max-content;
-    
 }
+
 .read {
-  
     width: 90%;
     display: flex;
-    _flex-wrap: wrap;
-    _margin-left: -80%;
     justify-content: center;
-    _margin-right: 20%;
-    _margin-bottom: 15%;
     margin-top: 16%;
-    position: absolute;
     height: 40%;
-    
+    position: absolute;
 }
 
 .intro1 {
     display: flex;
-    width: 125%;
-    
-    
+    width: 125%; 
 }
+
 .intro p {
     text-align:center ;
-    
+    margin-top: 1.2em;
 }
 
 button {
@@ -146,7 +139,6 @@ button {
     border-style: hidden;
     margin-top: 25%;
     position: absolute;
-   
 }
 
 .third {
@@ -162,7 +154,6 @@ button {
 .firstSection h3 {
     color: rgb(42, 109, 196);
     text-transform: capitalize;
-    
 }
 
 .border {
@@ -231,8 +222,6 @@ button {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 15px;
-
-   
 }
 
 .content img {
@@ -247,7 +236,6 @@ button {
 .group {
     margin-top: 10%;
     margin-right: 25%;
-
 }
 
 .group h4 {
@@ -297,7 +285,6 @@ path {
     display: flex;
     flex-wrap: wrap;
     height: 550px;
-    
 }
 
 .div {
@@ -305,9 +292,10 @@ path {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20%;
+    margin-top: 23%;
     margin-bottom: 3em;
 }
+
 .divOne {
     background-color: rgb(43, 226, 147);
     width: 50%;
@@ -315,24 +303,21 @@ path {
     display: flex;
     height: 50%;
     flex-wrap: wrap;
-    justify-content: center;
-   
 }
 
 .divOne h3 {
     text-transform: uppercase;
     text-align: center;
-   
 }
 
 .divOne img {
-    width: 1.4em;
-    height: 1.4em;
-    margin-right: 1em;
+    width: 1.3em;
+    height: 1.3em;
+    margin-right: 0.4em;
 }
 
 .divOne p {
-    width: 10em;
+    width: 9em;
     text-align: center;
 }
 
@@ -340,8 +325,8 @@ path {
     width: 100%;
     flex-wrap: wrap;
     display: flex;
+    margin-bottom: 2em;
    
-
 }
 
 .a {
@@ -349,9 +334,6 @@ path {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
-    
-    
 }
 
 .divSecond {
@@ -361,8 +343,6 @@ path {
     display: flex;
     height: 50%;
     flex-wrap: wrap;
-    
-   
 }
 
 .divSecond h3 {
@@ -380,6 +360,7 @@ path {
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 1.5em;
 }
 
 .divThird {
@@ -396,7 +377,6 @@ path {
     text-transform: uppercase;
     width: 100%;
     text-align: center;
-
 }
 
 .location ul {
@@ -431,7 +411,6 @@ path {
 .divFour img {
     width: 100%;
     height: 100%;
-   
 }
 
 iframe {
@@ -443,7 +422,6 @@ iframe {
     flex-wrap: wrap;
     width: 100%;
     margin-top: 60px;
-    
 }
 
 .fourthSection h1 {
@@ -453,7 +431,6 @@ iframe {
 form {
     width: 90%;
     margin: 0 auto;
-    _background-color: blueviolet;
     text-align: center;
     margin-bottom: 10%;
 }
@@ -475,8 +452,6 @@ textarea {
     margin-right:60%;
     padding: 10px 2px;
     height: fit-content;
-   
-    
 }
 
 footer {
@@ -515,7 +490,6 @@ footer ul {
 
 .theEnd ul {
     width: 100%;
-    
 }
 
 footer img {
@@ -525,19 +499,21 @@ footer img {
     margin-right: 1%; 
 }
 
-
 footer a {
     text-decoration: none;
 }
 
 @media only screen and (max-width: 450px) {
-    
-
-.divOne p {
-    font-size:0.7em;
-}
-.divThird ul {
-    font-size: 0.8em;
-}
-
+    .read p {
+        font-size: 0.8em;
+    }
+    .divOne p {
+        font-size:0.7em;
+    }
+    .divThird ul {
+        font-size: 0.8em;
+    }
+    .container h3 {
+        font-size: 0.8em;
+    }
 }

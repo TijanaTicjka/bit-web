@@ -1,14 +1,7 @@
 @media only screen and (min-width: 768px) {
 
     .container {
-        display: flex;
         width: 80%;
-        justify-content: center;
-        margin: 0 auto;
-        background-color: white;
-        display: wrap;
-        flex-wrap: wrap;
-        position: relative;
     }
 
     header {
@@ -25,25 +18,16 @@
         margin-top: 20px;
         font-size: small;
         margin-right: 15px;
-        
-      
-      
     }
 
     nav ul {
 
         display: flex;
-       
-       
     }
 
     nav li {
        margin: 3px ;
-      
     }
-   
-
-
 
     .first {
         border-color: white;
@@ -51,53 +35,35 @@
     
     .second {
         color:white;
-     }
-     .intro {
+    }
+    
+    .intro {
         margin-top:0;
-        color: white;
-        text-align: center;
-        text-transform: uppercase;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 100%;
-       
-        
     }
+
     .intro1 {
-        display: flex;
         flex-wrap: wrap;
         justify-content: center;
-       
-        
-       
     }
-
-
 
     .container1 {
         display: flex;
-        width: 100%;
         flex-wrap: wrap;
-       justify-content: space-between;
+        width: 100%;
+        justify-content: space-between;
         position: absolute;
         margin-top:0px;
-
     }
+
     header {
-        display: flex;
         margin-bottom: 0;
-        margin-top: 20px ;
         flex-wrap: nowrap;
-        justify-content: center;
     }
     .read {
         width: 100%;
         position: absolute;
-        display: flex;
         flex-wrap: wrap;
         margin-left:0;
-        justify-content: center;
         margin-right:0;
     }
 
@@ -106,77 +72,68 @@
         margin-top: 40px;
         width: 100%;
         font-size: 30px;
-        text-align: center;
     }
+
     button {
         margin-top: 140px;
         padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 46px;
-    padding-right: 46px;
-        
+        padding-bottom: 14px;
+        padding-left: 46px;
+        padding-right: 46px;
     }
 
     .intro1 p {
         font-size: 1.7em;
     }
 
-    img {
-
-        height: 100%;
-        width: 100%;
-    }
-
-.c {
-    display: flex;
-    flex-wrap: wrap;
-    width: 60%;
-    justify-content: left;
-}
-
-
-.someclass {
-    display: flex;
-}
-.firstSection img {
-    width: 100%;
-    margin-bottom:0;
-}
-
-
-    .firstSection {
-        width: 75%;
+    .c {
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
+        justify-content: left;
     }
+
+    .someclass {
+        display: flex;
+    }
+
+    .c1 {
+        width: 45%;
+    }
+    .image2 {
+        width:55%
+    }
+
+    .firstSection img {
+         margin-bottom:0;
+        }
+
+    .firstSection {
+        width: 80%;
+    }
+
     .group {
-        margin-top: 0px;
-        margin-right: 0px;
-       
-    
+        margin-right: 2px;
     }
+
     .c {
         width: 100%;
     }
+
     .c h3 {
         line-height: 60px;
     }
+
     .group h4 {
-        width: 60%;
+        width: 100%;
         font-size: small;
     }
+
     .content {
-        background-color: hsl(197, 100%, 50%);
-        color: white;
-        display: flex;
-        flex-wrap: wrap;
         margin-bottom: 0px;
         width: 100%;
-    
-       
     }
 
-   
     .box {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -192,109 +149,91 @@
     .commonContent {
         display:grid;
         grid-template-columns: repeat(2, 1fr);
-        width: 100%;
-        gap: 10px;
-        flex-grow: 2;
+        gap: 8px;
     }
 
     .stars {
-        padding: 1rem;
-        display: flex;
-        flex-wrap: wrap;
-        position: absolute;
         margin-top: -10px;
-        margin-left: 120px;
     }
-    
 
     .content img {
-        margin-top: 30px;  
+        margin-top: 30px;
     }
 
-    .content h4 {
-        margin-top: -70px;
-        margin-left: 135px;
+    iframe {
+        width: 100%;
+    }
+    .secondSection {
+        width: 80%;
     }
 
-iframe {
-    width: 100%;
-}
-.secondSection {
-    width: 75%;
+    .fourthSection {
+        width: 90%;
+        margin-top: 60px;
+    }
     
-}
-iframe {
-    max-width: 100%;
-}
+    .div {
+        margin-top: 15%;
+    }
+    .div h3 {
+        font-size: 1.2em;
+    }
 
-.fourthSection {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    margin-top: 60px;
+    .icons {
+        margin-bottom: 1em;
+    }
+
+    .divOne img {
+        width: 2em;
+        height: 2em;
+    }
     
-}
-
-.fourthSection h1 {
-    text-transform: capitalize;
-}
-
-
-
-.divOne img {
-    width: 2em;
-    height: 2em;
+    .divOne p {
+        width: 8em;
+        font-size: 1.2em;
+    }
     
-}
+    .divSecond img {
+        width: 2em;
+        height: 2em;
+    }
 
-.divOne p {
-    width: 8em;
-    text-align: center;
-    font-size: 1.5em;
-}
-.divSecond img {
-    width: 2em;
-    height: 2em;
-}
+    .location {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
 
-.location ul {
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    justify-content: center;
-    padding: 0px;
-    margin-left: 10%;
-    margin-bottom: 2em;
-    margin-top: 1em;
-    font-size: 1.4em;
-}
-.location img {
-    height: 1.2em;
-    width: 1.2em;
-    margin-top: -1em;
+    .location ul {
+        width: 80%;
+        padding: 0px;
+        margin-left: 0%;
+        margin-bottom: 2em;
+        margin-top: 1em;
+        font-size: 1.3em;
+        
+    }
+ 
+    .location img {
+        height: 1.2em;
+        width: 1.2em;
+        margin-top: -1em;
+    }
+ 
+    .form1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    textarea {
+        width: 100%;
+    }
     
-}
-
-.form1 {
-    display: flex;
-    justify-content: space-between;
-}
-
-textarea {
-
-    width: 100%;
-}
-input {
-    width: 30%;
-}
-
-.submit {
-    margin-right:70%;
-}
-
-.group {
-    margin-top: 0;
-    margin-right: 25%;
-
-}
+    input {
+        width: 30%;
+    }
+    
+    .submit {
+        margin-right:70%;
+    }
 }
