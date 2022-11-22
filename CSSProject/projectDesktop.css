@@ -77,6 +77,10 @@
         flex-wrap: nowrap;
     }
     
+    .group {
+        width: 100%;
+    }
+    
     .group h4 {
         position: absolute;
         margin-top: 40px;

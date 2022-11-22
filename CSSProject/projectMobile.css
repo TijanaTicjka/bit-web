@@ -256,7 +256,6 @@ button {
 .stars {
     padding: 1rem;
     display: flex;
-    flex-wrap: wrap;
 }
 
 svg {

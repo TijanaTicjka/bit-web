@@ -113,7 +113,9 @@
     }
 
     .group {
-        margin-right: 2px;
+        margin-left: 110px;
+        position: absolute;
+        margin-top: 40px;
     }
 
     .c {
