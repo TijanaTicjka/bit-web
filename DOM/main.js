@@ -95,13 +95,13 @@ text passed as the function argument. */
 
 // console.log(represent);
 
-// var represent =(function() {
-//     var f = document.documentElement.children[1].children[6].children[0];
-//     var t = f.textContent;
-//     return alert(t);
+var represent =(function() {
+    var f = document.documentElement.children[1].children[6].children[0];
+    var t = f.textContent;
+    return alert(t);
     
-// })();
-// console.log(represent);
+})();
+console.log(represent);
 
 // function replaceText(someText) {
 //     var forReplace = document.documentElement.lastElementChild.lastElementChild.previousElementSibling.lastElementChild;
@@ -134,7 +134,6 @@ The second select should be appended to the last div on the page. */
 
 var d = document.getElementById("dropdown");
 var dropdown = (function(array, node) {
-    var d = document.createElement(node);
     var select = document.createElement("select");
     var option = "";
     for (var i = 0; i < array.length; i++) {
