@@ -1,0 +1,14 @@
+.color {
+    background-color: blueviolet;
+}
+.bgColor {
+    background-color: pink;
+
+}
+.bgColor1 {
+    background-color: gold; 
+    text-transform: uppercase; 
+}
+.active {
+    background-color: aqua;
+}
