@@ -81,7 +81,6 @@ console.log(selectLi);
 Create an unordered list containing <li> items that represent navigation.
 Create a function that takes text from one of the <li> elements and presents it on
 screen using alert.
-
 Create one more function.
 The function should take some text as an argument.
 The function should select the last <li> element in the list and replace its text with
@@ -95,13 +94,13 @@ text passed as the function argument. */
 
 // console.log(represent);
 
-var represent =(function() {
-    var f = document.documentElement.children[1].children[6].children[0];
-    var t = f.textContent;
-    return alert(t);
+// var represent =(function() {
+//     var f = document.documentElement.children[1].children[6].children[0];
+//     var t = f.textContent;
+//     return alert(t);
     
-})();
-console.log(represent);
+// })();
+// console.log(represent);
 
 // function replaceText(someText) {
 //     var forReplace = document.documentElement.lastElementChild.lastElementChild.previousElementSibling.lastElementChild;
@@ -118,7 +117,7 @@ function replaceText(someText) {
     return forReplace;
 };
 
-var a = replaceText("This is Vanilla JS");
+var a = replaceText("This is Vanilla JS and today is Saturday");
 console.log(a);
 
 /* InnerHTML
@@ -133,6 +132,8 @@ The first select should be appended to the first div on the page.
 The second select should be appended to the last div on the page. */
 
 var d = document.getElementById("dropdown");
+// var b = document.getElementsByTagName("div")[0];
+//var b = document.getElementsByTagName("div")[1];
 var dropdown = (function(array, node) {
     var select = document.createElement("select");
     var option = "";
@@ -153,6 +154,44 @@ Create a function that validates the form.
 The function checks each input element that belongs to the form.
 If the element has the required attribute and no data, it should get red borders. */
 
+// var allInputs = document.getElementsByTagName("input");
+// console.log(allInputs);
+// var c = allInputs[0];
+// console.log(c);
+// var submite = document.querySelector("form").lastElementChild;
+// console.log(submite);
+
+// function validateForm(f){
+//     var inputs = document.getElementsByTagName("input");
+//     for (var i = 0; i < inputs.length; i++) {
+//         if(inputs[i].hasAttribute("required") && inputs[i].value.length === 0 ){
+//            inputs[i].setAttribute("style","border-color:red");
+//         } else {
+//             inputs[i].removeAttribute("style")
+//         }
+//     }
+//     return inputs;
+// }
+
+function validateForm(f){
+    var inputs = document.getElementsByTagName("input");
+    for (var i = 0; i < inputs.length; i++) {
+        if(inputs[i].hasAttribute("required") && inputs[i].value.length === 0 ){
+           inputs[i].classList.add("borderColor");
+        } else {
+            inputs[i].classList.remove("borderColor")
+        }
+    }
+    return inputs;
+}
+
+// var form = document.querySelector("form");
+// var n = validateForm(form);
+// console.log(n);
+
+    
+
+
 
 
 
@@ -163,10 +202,6 @@ If the element has the required attribute and no data, it should get red borders
 
 
  
-
-
-
-    
 
 
 

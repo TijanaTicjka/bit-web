@@ -12,3 +12,6 @@
 .active {
     background-color: aqua;
 }
+.borderColor {
+    border: 5px solid red;
+}
