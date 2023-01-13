@@ -1,0 +1,61 @@
+<!--Unordered/Ordered lists
+● Create a page that contains two lists
+● The first list is an ordered list
+● The second list is an unordered list
+● Use Roman numbers in the ordered list
+
+Definition list
+● Create a list that contains terms and definitions for those terms
+● Your pair should extend the list with some additional content
+
+Nested list
+● Create an unordered list
+● Nest an ordered list in the second element of the unordered list
+● Third element of the unordered list should contain an ordered list that uses Roman numbers-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol type="I">
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+    </ol>
+    <ul>
+        <li>Fourth Item</li>
+        <li>Fifth Item</li>
+        <li>Sixth Item</li>
+    </ul>
+    <dl>
+        <dt>Italian language</dt>
+        <dd>Italian is a Romance language of the Indo-European language family that evolved from the Vulgar Latin of the Roman Empire. Together with Sardinian, Italian is the least divergent language from Latin. Spoken by about 85 million people, Italian is an official language in Italy, Switzerland, San Marino, and Vatican City.</dd>
+    </dl>
+    <dl>
+        <dt>Spanish language</dt>
+        <dd>Spanish is a Romance language of the Indo-European language family that evolved from colloquial Latin spoken on the Iberian peninsula. Today, it is a global language with more than 500 million native speakers, mainly in the Americas and Spain. Spanish is the official language of 20 countries</dd>
+    </dl>
+    <ul>
+        <li>First Element</li>
+        <li>Second Element
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ol>
+        </li>
+        <li>Third Element
+            <ol type="I">
+                <li>Item 4</li>
+                <li>Item 5</li>
+                <li>Item 6</li>
+            </ol>
+        </li>
+    </ul>
+</body>
+</html>

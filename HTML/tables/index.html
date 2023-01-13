@@ -1,0 +1,119 @@
+<!--Table Basics
+● Create a table containing phone specification data
+● Each row should represent a new phone
+● Content of the first column is the phone name
+● The second column should contain the phone image (height of 100px)
+● The third column should contain the amount of ram
+● The fourth column should contain camera information
+● The fifth column should contain info about internal memory
+● Table should have at least three rows!
+● Add column title for each column using th
+
+Merging cells across rows
+● Add a new column to the table
+● Title of the column should be "External antenna"
+● Merge all cells in this column into one cell except the column title
+● Value inside the cell should be something like "NO"
+
+Merging columns
+● Add a row in the table before the first row
+● The new row should contain one cell stretching across all columns
+● Content of the cell should be something like "Specification"-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="6">Specification</th>
+           <!--<td>new</td>
+            <td>new</td>
+            <td>new</td>
+            <td>new</td>
+            <td>new</td>--> 
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>External antenna</th>
+        </tr>
+        <tr>
+            <td>Phone 1</td>
+            <td>photo</td>
+            <td>4GB</td>
+            <td>200mpx</td>
+            <td>150GB</td>
+            <td rowspan="3" align="center">NO</td>
+        </tr>
+        <tr>
+            <td>Phone 2</td>
+            <td>photo</td>
+            <td>6GB</td>
+            <td>250mpx</td>
+            <td>300GB</td>
+        </tr>
+        <tr>
+            <td>Phone 3</td>
+            <td>photo</td>
+            <td>8GB</td>
+            <td>300mpx</td>
+            <td>1GB</td>
+        </tr>
+    </table>
+<!--Layout using table (centered column)
+● Create a three column layout
+● Center column should be 960px wide
+● Center column should contain
+- main title
+- image (same width as column)
+- multiple text paragraphs
+
+Future layout organization (table in the table)
+● Rearrange paragraphs that you made in the previous example
+● Center column should be split in two columns
+● Even paragraphs should go in the left column and odd ones in the
+right column-->
+    <table>
+        <tr>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores iure beatae officiis quibusdam? Blanditiis quod deserunt deleniti modi molestias accusantium a. Consectetur expedita quod voluptatibus omnis molestiae autem debitis beatae?
+            Aperiam pariatur officiis autem, illo sequi corporis veritatis fuga dolorum molestias repudiandae velit ipsam delectus excepturi exercitationem assumenda quas est perferendis quisquam vel accusantium? Fugiat cumque nulla at non deserunt?</td>
+            <td width="960">
+                <h1 align="center">Main title</h1>
+                <img src="../images/giphy.gif" alt="Dog is thinking" width="960">
+                <table>
+                    <tr>
+                        <td>
+                            <p>Second.Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nihil pariatur adipisci sapiente soluta expedita, doloribus tempore fugiat minus facilis eligendi, nam, totam nulla quis dicta modi ducimus! Laboriosam, mollitia.
+                            Magnam consequuntur in expedita incidunt voluptatum vitae nisi beatae fugit repellendus aliquid harum aut, amet quis quisquam omnis iure dolore dolores neque molestiae laboriosam eum inventore! Accusamus neque delectus commodi?
+                            Soluta quo laudantium, possimus iure autem nisi, iste non quod error, voluptatum nemo. Maiores debitis libero esse nulla harum quae recusandae similique, iste nostrum excepturi. Provident vel est delectus earum.</p>
+                            <p>Forth.Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nihil pariatur adipisci sapiente soluta expedita, doloribus tempore fugiat minus facilis eligendi, nam, totam nulla quis dicta modi ducimus! Laboriosam, mollitia.
+                            Magnam consequuntur in expedita incidunt voluptatum vitae nisi beatae fugit repellendus aliquid harum aut, amet quis quisquam omnis iure dolore dolores neque molestiae laboriosam eum inventore! Accusamus neque delectus commodi?
+                            Soluta quo laudantium, possimus iure autem nisi, iste non quod error, voluptatum nemo. Maiores debitis libero esse nulla harum quae recusandae similique, iste nostrum excepturi. Provident vel est delectus earum.</p>
+                        </td>
+                        <td>
+                            <p> First.Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nihil pariatur adipisci sapiente soluta expedita, doloribus tempore fugiat minus facilis eligendi, nam, totam nulla quis dicta modi ducimus! Laboriosam, mollitia.
+                            Magnam consequuntur in expedita incidunt voluptatum vitae nisi beatae fugit repellendus aliquid harum aut, amet quis quisquam omnis iure dolore dolores neque molestiae laboriosam eum inventore! Accusamus neque delectus commodi?
+                            Soluta quo laudantium, possimus iure autem nisi, iste non quod error, voluptatum nemo. Maiores debitis libero esse nulla harum quae recusandae similique, iste nostrum excepturi. Provident vel est delectus earum.</p>
+                            <p>Third.Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nihil pariatur adipisci sapiente soluta expedita, doloribus tempore fugiat minus facilis eligendi, nam, totam nulla quis dicta modi ducimus! Laboriosam, mollitia.
+                            Magnam consequuntur in expedita incidunt voluptatum vitae nisi beatae fugit repellendus aliquid harum aut, amet quis quisquam omnis iure dolore dolores neque molestiae laboriosam eum inventore! Accusamus neque delectus commodi?
+                            Soluta quo laudantium, possimus iure autem nisi, iste non quod error, voluptatum nemo. Maiores debitis libero esse nulla harum quae recusandae similique, iste nostrum excepturi. Provident vel est delectus earum.</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur magni ad qui pariatur voluptas. Qui, quasi. Totam autem, blanditiis cupiditate iure mollitia inventore. Quidem velit repudiandae dignissimos nostrum nulla earum!
+            A architecto nesciunt hic iure eaque dignissimos voluptas sit veritatis doloremque ea necessitatibus, blanditiis aspernatur sed praesentium inventore unde odio magnam distinctio. Voluptatum deleniti cupiditate mollitia accusantium distinctio, rerum eos.
+            Nemo aliquid eaque quaerat hic laborum incidunt voluptate amet omnis neque nesciunt corrupti minus iste, illo quas laudantium error ea numquam ratione sequi. Blanditiis reprehenderit eum unde ex incidunt provident.</td>
+        </tr>
+    </table>
+</body>
+</html>

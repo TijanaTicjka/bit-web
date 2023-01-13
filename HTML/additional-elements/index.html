@@ -1,0 +1,60 @@
+<!--Blog Exercise
+Home Page content
+● Create a page with two columns
+● Width of the left column is 300px
+● Right column stretches to cover the rest of the screen
+● Left column content
+○ Logo image with height set to 250px
+○ Under the logo, there should be a list of links
+○ One of the links should be "Contact"
+○ The link should link to "contact.html" page
+● Right column content
+● There should be two posts in form of groups
+● The first group content:
+○ Title
+○ Embedded YouTube video
+● The second group content:
+○ Title
+○ Video (HTML5) that you will find on the web
+
+Contact Page content
+● Embedded Google Map on the page
+● Link for getting back to the “Home” page-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td width="300px">
+                <img src="https://st.depositphotos.com/1008709/4676/i/450/depositphotos_46768767-stock-photo-hands-in-art-logo.jpg" alt="logo" height="250">
+                <ul>
+                    <li><a href="./contact.html" target="_blank">Contact</a></li>
+                    <li><a href="">Our Clients</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+            </td>
+            <td>
+                <div>
+                    <h2>Intro</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MT7MEpM2Muw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <h2>Work with us</h2>
+                    <video width="320" height="240" controls>
+                        <source src="movie.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
