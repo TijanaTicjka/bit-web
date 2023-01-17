@@ -1,0 +1,19 @@
+body {
+    background-image: url(./images/field.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 950px 600px;
+}
+img {
+    width: 10%;
+    position: absolute;
+    margin-left: 200px;
+}
+button {
+    margin-top: 40%;
+    margin-left: 77%;
+    padding: 5px 13px;
+    color: white;
+    background-color: tomato;
+    border:2px 
+}

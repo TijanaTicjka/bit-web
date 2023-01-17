@@ -1,0 +1,12 @@
+body {
+    background-image: url(./images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 600px;
+}
+
+img {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: 26%;
+}

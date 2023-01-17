@@ -1,0 +1,34 @@
+<!--Event Handlers from HTML 
+Basic
+● Create page containing only one button
+● Toggle background color on button click
+
+Advance
+● Adapt basic example
+● On button click, automatically toggle background
+● Have a button to cancel automatic toggle-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <button onclick="changeBgColor()">Toggle background</button>
+    <button id="off" onclick="turnOff()">Turn off</button>
+    <script>
+        function changeBgColor() {
+            //document.documentElement.lastElementChild.style.backgroundColor = "pink";
+            document.body.style.backgroundColor = "pink";
+        } 
+        function turnOff() {
+            //document.documentElement.lastElementChild.style.backgroundColor = "black";
+            document.body.style.backgroundColor = "black";
+        }
+    </script>
+</body>
+</html>

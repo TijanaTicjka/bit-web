@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+button {
+    background-color:tomato;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    padding: 10px 32px;
+    border-radius: 5px;
+    border: none;
+}
+#off {
+    background-color:orange;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+}
